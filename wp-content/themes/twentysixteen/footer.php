@@ -47,16 +47,13 @@
 					 */
 					do_action( 'twentysixteen_credits' );
 				?>
-				<h1>test</h1>
 				<span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
 				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentysixteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentysixteen' ), 'WordPress' ); ?></a>
 			</div><!-- .site-info -->
 		</footer><!-- .site-footer -->
 	</div><!-- .site-inner -->
 </div><!-- .site -->
+
 <?php wp_footer(); ?>
-<h1>test</h1>
-<h1 style="color:white;">test</h1>
-<h1>test</h1>
 </body>
 </html>
